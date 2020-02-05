@@ -5,10 +5,6 @@ import { PokemonInstance } from 'models/Pokemon';
 
 export const router = express.Router();
 
-router.get('/', (req: Request, res: Response) => {
-  res.status(200).json({ message: 'hello, world' });
-});
-
 router.get('/pokemons', (req: Request, res: Response) => {
   db.Pokemon.findAll({
     order: ["name"]
