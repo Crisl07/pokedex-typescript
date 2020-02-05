@@ -1,0 +1,10 @@
+{
+  "database": "pokedexyuxi",
+  "username": "root",
+  "password": "Ortiz$2019",
+  "params": {
+    "host": "localhost",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
